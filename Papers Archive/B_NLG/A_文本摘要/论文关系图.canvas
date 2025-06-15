@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"SimCLS_A Simple Framework for Contrastive Learning of Abstractive Summarization.md","id":"40dc6ccacfb2cb35","x":-220,"y":-280,"width":500,"height":50},
+		{"type":"file","file":"BRIO_Bringing Order to Abstractive Summarization.md","id":"d5173e2beed5c9d0","x":-170,"y":-80,"width":400,"height":50}
+	],
+	"edges":[
+		{"id":"0bd590587276c713","fromNode":"40dc6ccacfb2cb35","fromSide":"bottom","toNode":"d5173e2beed5c9d0","toSide":"top","label":"相同工作，生成候选摘要"}
+	]
+}

@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "d105a5715e1c8aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7c319bb41224057",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad0dc6202204807",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05b9b1270cacc27a",
+    "type": "split",
+    "children": [
+      {
+        "id": "df3a628166a3dfa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2629a23216e26d49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a5aced5a3c19e50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ebc1e73b5fb9cf0c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "edcbc3567d9be7ff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5cc4f5fccbc79ac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "816ee06e86b3ab8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4223b5645682070c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名 1.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74bb4e0ec0c5a57f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名 1.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "18e49a431746ddb9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b919f01bbb374ca3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名 1.canvas"
+              }
+            }
+          },
+          {
+            "id": "a93276a2e65fa10a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9ad0dc6202204807",
+  "lastOpenFiles": [
+    "未命名 1.canvas",
+    "论文关系图.canvas",
+    "未命名 1",
+    "未命名",
+    "SimCLS_A Simple Framework for Contrastive Learning of Abstractive Summarization.md",
+    "PEGASUS_Pre-training with Extracted Gap-sentences for Abstractive Summarization.md",
+    "未命名.canvas",
+    "SimCLS_A Simple Framework forContrastive Learning of Abstractive Summarization.md",
+    "BRIO_Bringing Order to Abstractive Summarization.md",
+    "SimCLS_A Simple Framework for Contrastive Learning of Abstractive Summarization.pdf",
+    "Get To The Point_Summarization with Pointer-Generator Networks.pdf",
+    "Get To The Point_Summarization with Pointer-Generator Networks.md",
+    "BRIO_Bringing Order to Abstractive Summarization.pdf",
+    "BRIO Bringing Order to Abstractive Summarization.md",
+    "Get To The Point Summarization with Pointer-Generator Networks.md",
+    "Summarization数据集和评价.md"
+  ]
+}

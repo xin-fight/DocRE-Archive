@@ -1,0 +1,159 @@
+(DREEAM) root@autodl-container-9cb9118e00-cf383cf7:~/autodl-tmp/new_Graph-ATLOP-DREEAM-Chtr# python run_iscf_SAIS_Evidence_a.py --do_train --data_dir dataset/docred --transformer_type bert --model_name_or_path bert-base-cased --display_name bert_lambda0_seed66 --save_path bert_lambda0_seed66 --train_file train_annotated.json --dev_file dev.json --train_batch_size 4 --test_batch_size 8 --gradient_accumulation_steps 1 --num_labels 4 --lr_transformer 5e-5 --max_grad_norm 1.0 --evi_thresh 0.2 --evi_lambda 0 --warmup_ratio 0.06 --num_train_epochs 30.0 --num_class 97 --loss_weight_ET 0.25 --TSER_Logsumexp --three_atten --use_graph
+####################
+**********
+save_path: ./Save/use_graphTrue_docred_ent2id_NATrue_REDocred_TASK_ETTrue0.25_0.0_s_attn_lambda0_threeTrue_clsFalse_relation768_extractor768_seed66_Relation_SeplossTrue_Crht_lossFalse_Emb_lossFalse_Relation_lossTrue
+全微调: True
+seed: 66
+&&&&&&&&&&
+&&&&&&&&&&
+use_graph: True
+cat_graph: False
+cat_htrs_htrsnew: False
+entity_pos_isAA: False
+**********
+create_graph_ISori: True
+**********
+**********
+docred_ent2id_NA: True
+IS_high_batch_ET_loss: True
+**********
+three_atten: True
+use_cls_info: False
+use_bilinear: True
+&&&&&&&&&&
+reduced_dim: 768
+relation_dim: 768
+extractor_dim: 768
+*&*&*&*&*&*&*&*&*&*&
+Relation_Specific_num: 6
+Crht_loss: False
+__Crht_loss: 0.01
+**Crht_MY_logsumexploss: True
+Emb_loss: False
+__Emb_loss: 0.01
+**Emb_MY_logsumexploss: True
+Relation_loss: True
+__Relation_Seploss: True
+*$*$*$*$*$*$*$*$*$*$
+PEMSCLloss: False
+evi_loss: True
+attn_loss: True
+&&&&&&&&&&
+TASK_ET: True
+**loss_weight_ET: 0.25
+&&&&&&&&&&
+frozen_relation_vector: False
+&&&&&&&&&&
+enhance_evi: []
+s_attn_lambda: 0
+&&&&&&&&&&
+TSER_Logsumexp: True
+TSER_Logsumexp_new_mean: False
+____________________
+one_mention_copy_or_addrel: False
+####################
+####################
+**********
+save_path: ./Save/use_graphTrue_docred_ent2id_NATrue_REDocred_TASK_ETTrue0.25_0.0_s_attn_lambda0_threeTrue_clsFalse_relation768_extractor768_seed66_Relation_SeplossTrue_Crht_lossFalse_Emb_lossFalse_Relation_lossTrue
+全微调: True
+seed: 66
+&&&&&&&&&&
+&&&&&&&&&&
+use_graph: True
+cat_graph: True
+cat_htrs_htrsnew: False
+entity_pos_isAA: True
+**********
+create_graph_ISori: True
+**********
+**********
+docred_ent2id_NA: True
+IS_high_batch_ET_loss: True
+**********
+three_atten: True
+use_cls_info: False
+use_bilinear: True
+&&&&&&&&&&
+reduced_dim: 768
+relation_dim: 768
+extractor_dim: 768
+*&*&*&*&*&*&*&*&*&*&
+Relation_Specific_num: 6
+Crht_loss: False
+__Crht_loss: 0.01
+**Crht_MY_logsumexploss: True
+Emb_loss: False
+__Emb_loss: 0.01
+**Emb_MY_logsumexploss: True
+Relation_loss: True
+__Relation_Seploss: True
+*$*$*$*$*$*$*$*$*$*$
+PEMSCLloss: False
+evi_loss: True
+attn_loss: True
+&&&&&&&&&&
+TASK_ET: True
+**loss_weight_ET: 0.25
+&&&&&&&&&&
+frozen_relation_vector: False
+&&&&&&&&&&
+enhance_evi: []
+s_attn_lambda: 0
+&&&&&&&&&&
+TSER_Logsumexp: True
+TSER_Logsumexp_new_mean: False
+____________________
+one_mention_copy_or_addrel: False
+####################
+Some weights of the model checkpoint at bert-base-cased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+total parameters: 129621608
+trainable_num/total_num: 129.62M / 129.62M
+# of documents 3053.
+# of positive examples 35615.
+# of negative examples 1163035.
+# of documents 1000.
+# of positive examples 11518.
+# of negative examples 385272.
+Total steps: 22890
+Warmup steps: 1373
+0 {'dev_rel': [51.96874365739801, 41.556439178771406, 46.182982369121156], 'dev_rel_ign': [47.971858801833726, 41.556439178771406, 44.53429089030333], 'dev_evi': [45.3358403844145, 22.201759770820544, 29.806668727035472]}6840.16it/s]
+1 {'dev_rel': [59.28286852589642, 36.22494522437718, 44.970533420641715], 'dev_rel_ign': [56.28742506945049, 36.22494522437718, 44.08078365057563], 'dev_evi': [53.00067430883345, 20.104358502148557, 29.151058858435636]}, 7009.23it/s]
+2 {'dev_rel': [52.49318582651916, 53.13641158808732, 52.81284026293505], 'dev_rel_ign': [48.3887823999401, 53.13641158808732, 50.65159014919642], 'dev_evi': [46.074568050924526, 31.10292613055044, 37.136574639628634]}00, 6454.27it/s]
+3 {'dev_rel': [64.21314066380674, 46.15759149557738, 53.70851234597045], 'dev_rel_ign': [60.140827285124075, 46.15759149557738, 52.22948318280737], 'dev_evi': [58.075971161088994, 27.608962553713933, 37.425886758434174]} 6897.28it/s]
+4 {'dev_rel': [53.88259678732696, 59.068408666720764, 56.3564571074636], 'dev_rel_ign': [49.34959345581334, 59.068408666720764, 53.77339365634083], 'dev_evi': [48.634393063583815, 34.43319009617352, 40.31987540433689]}0, 7011.36it/s]
+5 {'dev_rel': [59.26888426888427, 55.5221942708756, 57.334394771022744], 'dev_rel_ign': [55.02200109525349, 55.5221942708756, 55.2709660396883], 'dev_evi': [53.42498989082086, 33.79373848987109, 41.400056403346596]}0:00, 6772.24it/s]
+6 {'dev_rel': [57.64042187883247, 57.21009494441288, 57.424452227742925], 'dev_rel_ign': [53.341138280492494, 57.21009494441288, 55.20791575905362], 'dev_evi': [51.26728971962616, 35.07775731532637, 41.65477022142575]}0, 7071.74it/s]
+7 {'dev_rel': [59.65488907148726, 58.914225432118805, 59.28224390642224], 'dev_rel_ign': [55.343337830519935, 58.914225432118805, 57.07298121907909], 'dev_evi': [54.10996617635492, 35.19030079803561, 42.64591922135086]}, 7074.49it/s]
+8 {'dev_rel': [63.12766351676857, 55.29497687251481, 58.95228619630575], 'dev_rel_ign': [59.04928484509797, 55.29497687251481, 57.11049755888702], 'dev_evi': [57.84658691062632, 33.6402701043585, 42.54107905291758]}0:00, 7003.26it/s]
+9 {'dev_rel': [60.61704384724187, 55.643917877140304, 58.02411677596785], 'dev_rel_ign': [56.383395284527715, 55.643917877140304, 56.01121598478379], 'dev_evi': [54.011646716273056, 34.16206261510129, 41.85259463524694]} 7057.19it/s]
+10 {'dev_rel': [60.97219793670222, 56.59336200600503, 58.70123311308446], 'dev_rel_ign': [56.79860635169012, 56.59336200600503, 56.69579842829554], 'dev_evi': [54.68016794270191, 33.97790055248619, 41.91197349739708]}00, 7045.77it/s]
+11 {'dev_rel': [58.25484548921928, 60.731964619005105, 59.467620182757244], 'dev_rel_ign': [53.99330869521034, 60.731964619005105, 57.16473133795924], 'dev_evi': [51.911525687230586, 37.5792919991815, 43.59773287041159]} 7128.86it/s]
+12 {'dev_rel': [62.178810278071104, 57.3399334577619, 59.661417655253935], 'dev_rel_ign': [57.97399036083506, 57.3399334577619, 57.6552187193045], 'dev_evi': [55.62753036437247, 35.14426028238183, 43.07480092795787]}:00, 7154.53it/s]
+13 {'dev_rel': [61.55022947475778, 58.76815710460115, 60.127028934368376], 'dev_rel_ign': [57.36499853231081, 58.76815710460115, 58.058101109250096], 'dev_evi': [55.012630249447426, 35.65070595457336, 43.26421653836603]} 7051.87it/s]
+14 {'dev_rel': [61.465761663373144, 58.05404528118153, 59.71120941490694], 'dev_rel_ign': [57.09365726863709, 58.05404528118153, 57.56984622264073], 'dev_evi': [54.92320885631871, 36.039492531205234, 43.521235521235525]} 6926.54it/s]
+15 {'dev_rel': [61.71213546566322, 58.55716952040899, 60.09327115256495], 'dev_rel_ign': [57.45509830138259, 58.55716952040899, 58.00089928789164], 'dev_evi': [55.04066288169403, 36.69940658890935, 44.03658461727334]}00, 6903.16it/s]
+16 {'dev_rel': [62.87286931818182, 57.46977197111093, 60.0500275575529], 'dev_rel_ign': [58.65546212688536, 57.46977197111093, 58.05656383775418], 'dev_evi': [56.633105114780506, 35.96787395129937, 43.99461877796202]}00, 7004.52it/s]
+17 {'dev_rel': [64.63028496926802, 56.31745516513836, 60.18819652226702], 'dev_rel_ign': [60.47866799117725, 56.31745516513836, 58.32393372307302], 'dev_evi': [57.89382822615451, 34.310415387763456, 43.08611441235987]}0, 6539.74it/s]
+18 {'dev_rel': [64.19979799834726, 56.73943033352268, 60.23951064013096], 'dev_rel_ign': [59.99384356659774, 56.73943033352268, 58.32127196911794], 'dev_evi': [57.38382669092111, 35.5023531819112, 43.86574805638076]}:00, 6887.75it/s]
+19 {'dev_rel': [65.26494437111069, 56.17138683762071, 60.377687644467706], 'dev_rel_ign': [61.01587295130596, 56.17138683762071, 58.49349509419597], 'dev_evi': [58.562113932738505, 34.91917331696337, 43.75080117933598]}, 7025.01it/s]
+20 {'dev_rel': [64.57802837395417, 57.623955205712896, 60.903126206098044], 'dev_rel_ign': [60.40861957673448, 57.623955205712896, 58.98343902002815], 'dev_evi': [57.79443425564149, 37.07796193984039, 45.174358814547034]}7007.84it/s]
+21 {'dev_rel': [63.94325731729216, 57.79436825448349, 60.71352457269511], 'dev_rel_ign': [59.686809817620144, 57.79436825448349, 58.72534687075922], 'dev_evi': [57.44424835552704, 36.6329036218539, 44.73667770350472]}00, 6999.41it/s]
+22 {'dev_rel': [64.93052360357045, 57.25878438691877, 60.853816300129374], 'dev_rel_ign': [60.76796370108302, 57.25878438691877, 58.961206464793435], 'dev_evi': [58.361037234042556, 35.92183343564559, 44.47118429385687]} 7048.25it/s]
+23 {'dev_rel': [64.74260381796798, 58.070275095350155, 61.2251882272416], 'dev_rel_ign': [60.600545889596056, 58.070275095350155, 59.308435578846165], 'dev_evi': [58.12118747458317, 36.55616942909761, 44.88270577520962]} 6964.43it/s]
+24 {'dev_rel': [64.98224528817263, 57.916091860748196, 61.24603106496181], 'dev_rel_ign': [60.862928603986035, 57.916091860748196, 59.352955600255655], 'dev_evi': [58.64975450081833, 36.66359729895641, 45.12087635356333]}6852.60it/s]
+25 {'dev_rel': [66.10472782068186, 56.95853282479916, 61.19175275707249], 'dev_rel_ign': [61.97168209850836, 56.95853282479916, 59.359450267404604], 'dev_evi': [59.356725146198826, 36.34642930223041, 45.085348055079635]} 6997.43it/s]
+26 {'dev_rel': [65.29898804047838, 57.59961048445995, 61.20812314060278], 'dev_rel_ign': [61.11340199885217, 57.59961048445995, 59.304503809284334], 'dev_evi': [58.445697474871295, 36.58686310620013, 45.0023596035866]}0, 6986.95it/s]
+27 {'dev_rel': [66.50983344311659, 57.35616327193054, 61.59477124183006], 'dev_rel_ign': [62.457805841289236, 57.35616327193054, 59.798371357756174], 'dev_evi': [59.49641487410372, 36.50501330059341, 45.24760636611502]}, 6922.67it/s]
+28 {'dev_rel': [66.69496321448783, 57.380507993183485, 61.688113413304265], 'dev_rel_ign': [62.6349205686403, 57.380507993183485, 59.89269218815279], 'dev_evi': [59.870740305522915, 36.48966646204215, 45.34358909160257]} 7078.00it/s]
+29 {'dev_rel': [66.49106302916275, 57.35616327193054, 61.586720690105864], 'dev_rel_ign': [62.41029963865523, 57.35616327193054, 59.77658935452165], 'dev_evi': [59.611050830481595, 36.535706977695924, 45.30432300421834]} 7139.58it/s]
+saving model checkpoint into bert_lambda0_seed66/2025-03-11_02:04:39.560546/last.ckpt ...
+saving official predictions into bert_lambda0_seed66/2025-03-11_02:04:39.560546/results.json ...
+saving evaluations into bert_lambda0_seed66/2025-03-11_02:04:39.560546/scores.csv ...
+             precision     recall         F1
+dev_rel      66.694963  57.380508  61.688113
+dev_rel_ign  62.634921  57.380508  59.892692
+dev_evi      59.870740  36.489666  45.343589
+saving topk results into bert_lambda0_seed66/2025-03-11_02:04:39.560546/topk_results.json ...
+经过时间：2小时 54分钟 29秒

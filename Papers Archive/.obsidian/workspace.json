@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "71a845792c3bd66b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fffc7f1519ac9817",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "923f58453ff0abbf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "85930de176c2bcc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e069073bdbdcffac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1da5d3edce4a4c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac5828cdb7c0c437",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d873b08e3baa0889",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "78e726e153bb7a05",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37926f4e6e0cabc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8eef848e6d8888f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec5c6d5023d3a115",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2551cb4fbe830757",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91ec98169516cf5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0617e73d4d61b967",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "923f58453ff0abbf",
+  "lastOpenFiles": [
+    "A_文本摘要/SimCLS_A Simple Framework forContrastive Learning of Abstractive Summarization.md",
+    "A_文本摘要/BRIO Bringing Order to Abstractive Summarization.md",
+    "图神经网络/Deep Learning on Graphs A Survey.pdf"
+  ]
+}

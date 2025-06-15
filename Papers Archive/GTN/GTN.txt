@@ -1,0 +1,12 @@
+Do Transformers Really Perform Bad for Graph Representation? #########
+A dynamic graph representation learning based on temporal graph transformer
+Pre-training Transformers for Knowledge Graph Completion
+Graph Inductive Biases in Transformers without Message Passing #######
+Pure Transformers are Powerful Graph Learners 
+Recipe for a General, Powerful, Scalable Graph Transformer ##########################
+Structure-Aware Transformer for Graph Representation Learning #######################
+Hierarchical Graph Transformer with Adaptive Node Sampling  #######
+Separate-and-Aggregate: A Transformer-based Patch Refinement Model for Knowledge Graph Completion
+Attending to Graph Transformers ####################################
+Neighbour Interaction based Click-Through Rate Prediction via Graph-masked Transformer
+nodeformer
